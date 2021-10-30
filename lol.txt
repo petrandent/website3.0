@@ -1,0 +1,5 @@
+servers:
+ns-1529.awsdns-63.org.
+ns-1664.awsdns-16.co.uk.
+ns-120.awsdns-15.com.
+ns-570.awsdns-07.net.

@@ -1,0 +1,28 @@
+body {
+    background-color:rgb(138, 29, 138);
+    color:white;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+article {
+    text-align: center;
+}
+
+
+
+a {
+   text-align:left;
+   color:white;
+   text-decoration:none;
+   line-height:2em;
+}
+
+a:hover {
+    color:rgb(131, 236, 149);
+}
+
+i {
+    color:rgb(60, 224, 60);
+    position: relative;
+    float:right;
+}
