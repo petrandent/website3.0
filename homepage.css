@@ -10,11 +10,12 @@ article {
 
 .selfie {
     width: 15%;
+    display:inline-block;
 }
 
 a {
    text-align:left;
-   color:white;
+   color:black;
    text-decoration:none;
    line-height:2em;
 }
@@ -52,3 +53,14 @@ form {
     text-align:center;
 }
 
+.menu li {
+    display:inline;
+    background-color: rgb(35, 152, 219);
+    border:2px solid black;
+    margin:3px;
+    padding:3px;
+}
+
+ul {
+    display:inline;
+}
