@@ -1,15 +1,11 @@
 <!DOCTYPE html>
-<html lang="el-gr">
+<html lang="el">
 
 <head>
     <meta charset="utf-8" />
     <meta name="contact-me" content="στοιχεία επικοινωνίας" />
     <title>Πέτρος Κυρές</title>
-	<style>
-	  input {
-	  display: block;
-	  }
-	</style>
+    <link rel="stylesheet" href="homepage.css" type="text/css" />
 </head>
 
 <body>
@@ -17,9 +13,9 @@
         <h1>Επικοινωνία</h1>
         <nav>
             <ul>
+                <li><a href="./index.html">Αρχική Σελίδα</a></li>
                 <li><a href="cv.html">Βιογραφικό</a></li>
-                <li><a href="./interests.html">Εξειδικευμένα Ενδιαφέροντα</a></li>
-                <li><a href="./contact.html">Επικοινωνία</a></li>
+                <li><a href="./interests.html">Ενδιαφέροντα</a></li>
             </ul>
         </nav>
         <hr>
@@ -29,28 +25,30 @@
         <p>Τηλέφωνο:6976050652</p>
         <br>
         <p>Μέσω email αμεσα στο petrandent@yahoo.gr ή αλλιώς στον παρακάτω σύνδεσμο:</p>
-        <a title="email" href="mailto:petrandent@yahoo.gr"><img src="email_image.png" alt="email image" height="100px"
-                width="100px" /></a>
-				
-		<br>
-		<h2>Φόρμα Επικοινωνίας</h2>
-		<form>
-			<label for="name">Ονοματεπώνυμο</label>
-			<input id="name" name="name" type="text" autocomplete="on"/>
-			<label for="phone">Τηλέφωνο</label>
-			<input id="phone" type="text" name="phone" autocomplete="on"/>
-			<label for="email">Email</label>
-			<input id="email" name="email"  type="text" autocomplete="on"/>
-			<label for="request">Μήνυμα</label>
-			<input id="request" name="request" type="textarea"/>
-			<input type="submit" value="submit"/>
-			
-		</form>
+        <a title="email" href="mailto:petrandent@yahoo.gr"><img src="images/email_image.png" alt="email image"
+                height="100px" width="100px" /></a>
+
+        <br>
+        <h3>Φόρμα Επικοινωνίας</h3>
+        <form>
+            <label for="name">Όνομα</label>
+            <input id="name" name="name" type="text" autocomplete="on" /><br>
+            <label for="phone">Τηλέφωνο</label>
+            <input id="phone" type="text" name="phone" autocomplete="on" /> <br>
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="text" autocomplete="on" /><br>
+            <label for="message">Μήνυμα</label>
+            <input id="message" name="message" type="textarea" /><br>
+            <br>
+            <input type="submit" value="submit" />
+
+        </form>
+        <br>
+        <hr>
     </main>
 
     <footer>
-        <br>
-        <hr>
+
         <p>&copy; 2021 Petros Kyres. All rights reserved</p>
     </footer>
 </body>
